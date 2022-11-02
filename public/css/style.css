@@ -1,0 +1,275 @@
+* {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.page-1 {
+  background-color: #f1f3ff;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-image: url(../images/car.svg), url(../images/car_ground.svg) !important;
+}
+
+.page-1 nav {
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+button {
+  background-color: #5cb85f !important;
+  color: white !important;
+}
+
+.page-2 {
+  margin-top: 100px;
+}
+
+.service {
+  background: url(../images/service.svg);
+  background-repeat: no-repeat;
+
+  /* center */
+  background-position: center;
+  /* fit */
+  background-size: contain;
+}
+
+.page-2 section div {
+  /* border: 2px solid red; */
+}
+
+.page-2 section {
+  /* border: 1px solid blue; */
+}
+
+.checkmark {
+  list-style-type: none;
+  padding: 0;
+}
+
+.checkmark li {
+  display: block;
+  background-image: url(../images/checkmark.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  line-height: 14px;
+  margin-top: 8px;
+  height: 36px;
+  padding-left: 32px;
+  padding-top: 7px;
+}
+
+.page-3 {
+  margin-top: 80px;
+}
+
+.page-3 section {
+  /* border: 1px solid red; */
+}
+
+.cards {
+  margin-top: 20px;
+}
+
+.card {
+  padding: 10px;
+}
+.card img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 10px;
+}
+
+.card h5 {
+  font-weight: 700;
+}
+.page-4 {
+  margin-top: 60px;
+}
+.page-4 h1,
+.page-4 p {
+  /* center text */
+  text-align: center;
+}
+
+.reviews-container {
+  /* border: 1px solid red; */
+  /* width: 200vw; */
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.review {
+  width: calc(30px * 3 + 619px * 3);
+  /* translate to left */
+  transform: translateX(-170px);
+}
+
+.review {
+  width: 1000px !important;
+  height: 270px !important;
+  padding: 50px;
+  margin-right: 30px;
+  /* border: 1px solid blue; */
+  background-color: #f1f3ff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.review .left {
+  width: 100px;
+  margin-right: 40px;
+  /* border: 1px solid green; */
+}
+
+.review .left img {
+  width: 80px;
+  height: 80px;
+}
+
+.review .right {
+  width: 350px;
+  /* border: 1px solid green; */
+}
+
+.star5 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.reviews-button {
+  margin-top: 30px;
+}
+.reviews-button img {
+  margin: 0 10px;
+}
+
+.page-5 {
+  margin-top: 60px;
+}
+
+.page-5 > div {
+  /* position: absolute; */
+  /* width: 1168px; */
+  background-color: #0d28a6;
+
+  height: 326px;
+  left: 136px;
+  top: 2078px;
+  border-radius: 13px;
+  color: white !important;
+}
+
+.page-5-content {
+  text-align: center;
+
+  /* margin-top: 60px; */
+  width: 700px;
+}
+
+.page-5-content button {
+  margin-top: 30px;
+}
+
+.page-6 {
+  margin-top: 60px;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details {
+  /* background: #D4D4D4; */
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  height: 56px;
+  padding: 18px;
+  padding-left: 20px;
+  margin-top: 15px;
+  /* position: absolute; */
+}
+
+summary img {
+  /* border: 2px solid red; */
+  margin-top: -5px;
+  height: 24px;
+  width: 24px;
+}
+
+.test {
+  /* border: 2px solid red; */
+}
+
+.page-7 {
+  margin-top: 70px;
+}
+
+.page-7 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+#output {
+  /* 3 columns grid for children */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+#output img {
+  width: 100%;
+  height: 200px;
+  /* center image */
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+#input {
+  width: 700px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align at bottoms */
+  align-items: flex-end;
+
+  margin-top: -30px;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  background: white;
+  padding: 20px;
+
+  background: #ffffff;
+  /* Shadow/High */
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  margin-bottom: 80px;
+}
+
+#input > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#input select,
+#input input {
+  margin-top: 10px;
+  height: 26px;
+}

@@ -6,7 +6,15 @@
   "author": "Fikri Rahmat Nurhidayat <fnurhidayat@binar.co.id>",
   "license": "MIT",
   "private": false,
+  "type": "module",
   "scripts": {
     "start": "node server/index.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
